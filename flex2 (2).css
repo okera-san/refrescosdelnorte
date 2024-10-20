@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    background: radial-gradient(120deg, rgb(255, 236, 200),rgb(255, 254, 224));
+    background-color:   rgb(255, 227, 190);
+}
+
+header{
+    border: solid 1px;
+    background: rgb(255, 200, 97);
+
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imglogo{
+    width: 100px;
+    height: 100px;
+    margin:0 ;
+}
+.banner{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 85, 31);
+    text-decoration: none
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: rgb(146, 96, 32);
+    font-size: 30px;
+    text-decoration: none;
+
+    padding: 15px 30px;
+
+}
+nav ul li a:hover{
+    background: rgb(212, 157, 54);
+    color: rgb(85, 54, 18);
+    border-radius: 100px;
+}
+
+/***Treminamos e iniciamos la segunda seccion***/
+.contenedor{
+    width: 80%;
+    background-color: rgb(255, 198, 113);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 50px;
+}
+.Titulo{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+    color: rgb(163, 73, 0);
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+.img1{
+    width: 100px;
+    padding: 25px 0px;
+}
+.contenedor2{
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-around;  /* COlocar uno al lado del otro*/
+}
+.articulo1{
+    padding: 0px 100px; 
+    text-align: center;
+    margin: 0 30px;
+}
+.articulo1 p{
+    text-align: justify ;
+}
+/* Aqui iniciamos los estilos de la segunda seccion*/
